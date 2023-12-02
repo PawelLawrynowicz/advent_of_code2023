@@ -12,7 +12,7 @@ include(CTest)
 # Add subdirectories with code
 add_subdirectory(external/googletest)
 
-add_executable(main src/main.cpp src/trebuchet.cpp)
+add_executable(main src/main.cpp src/trebuchet.cpp src/cube_condundrum.cpp)
 
 # BUILD_TESTING variable is created by include(CTest)
 # It is set to ON by default

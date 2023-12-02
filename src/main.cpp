@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "trebuchet.hpp"
+#include "cube_conundrum.hpp"
 
 int main() {
-  int value = trebuchetNames("/home/pwl/Projects/cpp/advent_of_code2023/input_files/day1.txt");
-  std::cout << value << std::endl;
-  return 0;
+    int value = fewest_cubes("/home/pwl/Projects/cpp/advent_of_code2023/input_files/day2.txt");
+    std::cout << value << std::endl;
+    return 0;
 }
